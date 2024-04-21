@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+
+body {
+    background-color: #181419;
+    color: white;
+  
+}
+
+.main {
+   .sectionPrincipal {
+        
+        .tituloPrincipal {
+            font-size: 4rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            font-family: "sofia",sans-serif;
+        }
+
+        .subtituloPrincipal {
+            font-size: 2.2rem;
+            font-weight: 400;
+            margin-bottom: 1rem;
+        }        
+    }    
+}
+
+.mainDetalle {
+
+    .detalle {
+        padding-top: 100px;
+        background: linear-gradient(to right top, #6d6969a7, #6d6969a7), url("../assets/img/mario-bg.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 70vh;
+
+        .contenedorDetalle {
+            width: 75%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            column-gap: 60px;
+
+            img {
+                border-radius: 20px;
+            }
+
+            .textoDetalle {
+                h1 {
+                    font-size: 2.2rem;
+                    font-weight: 700;
+                    font-family: "sofia",sans-serif;
+                }
+
+                h2 {
+                    margin-top: 20px;
+                    font-family: "sofia",sans-serif;
+                }
+
+                p {
+                    font-size: 1 rem;
+                    font-weight: 500;
+                   font-family: "Roboto",sans-serif;
+                }
+            }
+        }
+
+
+    }}
