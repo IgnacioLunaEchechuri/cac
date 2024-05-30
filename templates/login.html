@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,8 +12,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 </head>
+
 <body class="bodyRegistrarse">
-   
+
     <header class="header">
         <nav>
             <!-- Logo -->
@@ -25,52 +27,59 @@
 
             <!-- hipervínculos del menú -->
             <ul class="nav-links">
+                <li><a href="../index.html" class="btn-reg">INICIO</a></li>
                 <li><a href="../templates/register.html" class="btn-reg">Registrarse</a></li>
 
             </ul>
         </nav>
-    </header>   
-    
-    <main  >
-        <section id="banner" class="d-flex" data-aos="zoom-in" data-aos-duration="1000"  >
-                    
-                <div id="contenedor">
-                    <div id="central">
-                        <div id="login">
-                            <div class="titulo">
-                                Bienvenido
-                            </div>
-                            <form id="loginform">
-                                <div>
-                                    <input type="email" placeholder="Email" id="email" name="email">
-                                    <div class="error-text"></div>
-                                </div>
-                                <div>
-                                    <input type="password" placeholder="Contraseña" id="password" name="password">
-                                    <div class="error-text"></div>
-                                </div>
-    
-                                <div>
-                                    <input class="boton" type="submit" value="Iniciar Sesión">
-                                </div>
-                                
-                                 
-                            </form>
-                            <div class="pie-form">
-                                <a href="#">¿Perdiste tu contraseña?</a>
-                                <a href="../templates/register.html">¿No tienes Cuenta? Registrate</a>
-                            </div>
+    </header>
+
+    <main>
+        <section id="banner" class="d-flex" data-aos="zoom-in" data-aos-duration="1000">
+
+            <div id="contenedor">
+                <div id="central">
+                    <div id="login">
+                        <div class="titulo">
+                            Bienvenido
                         </div>
-                        <div class="inferior">
-                            <a href="../index.html">Volver</a>
+                        <form id="loginform">
+                            <div>
+                                <input type="email" placeholder="Email" id="email" name="email">
+                                <div class="error-text"></div>
+                            </div>
+                            <div>
+                                <input type="password" placeholder="Contraseña" id="password" name="password">
+                                <div class="error-text"></div>
+                            </div>
+
+                            <div>
+                                <input class="boton" type="submit" value="Iniciar Sesión">
+                            </div>
+
+
+                        </form>
+                        <div class="pie-form">
+                            <a href="#">¿Perdiste tu contraseña?</a>
+                            <a href="../templates/register.html">¿No tienes Cuenta? Registrate</a>
                         </div>
-                    </div>   
+                    </div>
+                    <div class="inferior">
+                        <a href="../index.html">Volver</a>
+                    </div>
+                </div>
         </section>
     </main>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+    <script>  AOS.init(); </script>
     <script src="../js/validate_login.js"></script>
+    <footer id="footer">
+        <a href="../templates/page-under-Contruction.html">Términos y condiciones</a>
+        <a href="../templates/page-under-Contruction.html">Preguntas Frecuentes</a>
+        <a href="../templates/page-under-Contruction.html">Ayuda</a>
+    </footer>
+
+
 </body>
+
 </html>

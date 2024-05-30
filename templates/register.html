@@ -27,8 +27,10 @@
                 </a>
             </div>
 
-           
+
             <ul class="nav-links">
+                <li><a href="../index.html" class="btn-reg">INICIO</a></li>
+
                 <li>
                     <a href="./login.html">
                         <i class="fas fa-sign-in-alt"></i>
@@ -43,32 +45,33 @@
 
     <main>
 
-        <section id="banner" class="d-flex">    
+        <section id="banner" class="d-flex">
             <section data-aos="zoom-in" data-aos-duration="1000" class="form-register">
                 <form action="" method="get">
                     <h4>Registro</h4>
                     <div>
-                        <input class="controls" type="text" placeholder="Nombre"  id="nombre" name="nombre">
+                        <input class="controls" type="text" placeholder="Nombre" id="nombre" name="nombre">
                         <div class="error-text"></div>
                     </div>
                     <div>
-                        <input class="controls" type="text" placeholder="Apellido"  id="apellido" name="apellido">
+                        <input class="controls" type="text" placeholder="Apellido" id="apellido" name="apellido">
                         <div class="error-text"></div>
                     </div>
                     <div>
-                        <input class="controls" type="email" placeholder="Email"  id="email" name="email">
+                        <input class="controls" type="email" placeholder="Email" id="email" name="email">
                         <div class="error-text"></div>
                     </div>
                     <div>
-                        <input class="controls" type="password" placeholder="Contraseña"  id="password" name="password">
+                        <input class="controls" type="password" placeholder="Contraseña" id="password" name="password">
                         <div class="error-text"></div>
                     </div>
                     <div>
-                        <input class="controls" type="date" placeholder="Fecha de Nacimiento (dd/mm/aaaa)"  id="fechaNacimiento" name="fechaNacimiento">
+                        <input class="controls" type="date" placeholder="Fecha de Nacimiento (dd/mm/aaaa)"
+                            id="fechaNacimiento" name="fechaNacimiento">
                         <div class="error-text"></div>
                     </div>
                     <div>
-                        <select class="controls"name="pais" id="pais">
+                        <select class="controls" name="pais" id="pais">
                             <option value="">País</option>
                             <option value="AR">Argentina</option>
                             <option value="BO">Bolivia</option>
@@ -91,15 +94,15 @@
                     <div>
                         <input class="button" type="submit" value="Registrarse">
                     </div>
-                    
+
                 </form>
             </section>
-        </main>
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-            AOS.init();
-        </script>
-       <script src="../js/validate_register.js"></script>
+    </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="../js/validate_register.js"></script>
 
     <footer id="footer">
         <a href="">Términos y condiciones</a>
